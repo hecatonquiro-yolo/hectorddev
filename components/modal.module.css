@@ -1,0 +1,92 @@
+/* Modal */
+
+.modal_container{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  .modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    height: 70%;
+    border-radius: 8px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    transition: transform 1s;
+    background-color: #061B4D;
+    transform: translateY(0%);
+  }
+
+  .modal_title {
+    font-size: x-large;
+    margin: 0;
+  }
+
+  .description_container {
+    margin: 0 10%;
+  }
+
+  .modal_description {
+    text-align: justify;
+  }
+
+  .modal_description ~ a{
+    color:rgba(0, 0, 0, 0.5);
+    margin: 0;
+  }
+  
+  .try {
+    width: fit-content;
+    background-color: #e84ab1;
+    border-radius: 8px;
+    padding: 4%;
+
+    font-size: large;
+  }
+
+  .technologies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .technologies code {
+    font-size: small;
+    margin: 1% 2%;
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+  
+  .node {
+    background-color: #649B59;
+   
+  }
+  .python {
+    background-color: #F6D145;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .react{
+    background-color: #5ED3F3;
+    color:rgba(0, 0, 0, 0.5)
+  }
+  .html{
+    background-color: #DD4B25;
+    
+  }
+  .mongo{
+    background-color: #3F2E1E;
+    
+  }

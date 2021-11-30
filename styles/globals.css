@@ -2,14 +2,31 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  background-image: linear-gradient(180deg, #505467 0, #1f3259 50%, #00154b 100%);
+  background-size: contain;
+  background-attachment: fixed;
+  color: #dbe8d4;
 }
 
 a {
-  color: inherit;
   text-decoration: none;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
+
+h1, h2, p, img {
+  margin: 0;
+}
+
+li{
+  text-decoration: none;
+  list-style: none;
+}
+
 
 * {
   box-sizing: border-box;
