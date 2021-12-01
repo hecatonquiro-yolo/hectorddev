@@ -135,7 +135,7 @@ export default function Home() {
               />
            </figure>
             <p className={styles.about_music}>
-            But I don't just spend it in front of a screen 24/7. Another thing I like is music. Since I was 8 years old I have studied music and it is one of the best ways that exist to transmit much more than 0 and 1. This has helped me to meet many people, create a discipline to learn (which I value a lot) and understand the importance of having a harmony in the team that carries out a task.
+            But I dont just spend it in front of a screen 24/7. Another thing I like is music. Since I was 8 years old I have studied music and it is one of the best ways that exist to transmit much more than 0 and 1. This has helped me to meet many people, create a discipline to learn (which I value a lot) and understand the importance of having a harmony in the team that carries out a task.
 
             </p>
             <p></p>
