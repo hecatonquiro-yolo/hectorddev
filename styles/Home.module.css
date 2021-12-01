@@ -55,7 +55,8 @@
 }
 
 .projects_sample{
-  text-align: center;
+  display: flex;
+  justify-content: center;
   width: 100%;
   height: max-content;
   margin-top: 10%;
@@ -63,14 +64,15 @@
 
 .sample_list {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
   margin: 0;
   padding: 0;
 }
 
-.item {
-  margin-top: 12%;
+.item1, .item2, .item3{
+  margin: 15%
 }
 
 .btnClose {
@@ -138,6 +140,29 @@
   border-bottom: 3px solid #e84ab1;
 }
 
-.contact .gmail{
+.contact_links{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
   margin-top: 20%;
+}
+
+
+
+
+
+/* Breakpoints */
+
+@media (min-width: 492px){
+  .projects {
+    width: 100%;
+  }
+
+  .sample_list{
+    width: 100%;
+    justify-content: space-around;
+  }
+  .item1, .item2, .item3{
+    margin: 0 2%;
+  }
 }

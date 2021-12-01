@@ -60,7 +60,7 @@ export default function Home() {
         </div>
         <div className={styles.projects_sample}>
           <ul className={styles.sample_list}>
-            <li className={styles.item}><a  onClick={handleClick} ref={aRef} name="Currency Converter">
+            <li className={styles.item1}><a  onClick={handleClick} ref={aRef} name="Currency Converter">
               <Image
                   priority
                   src="/uno.png"
@@ -70,7 +70,7 @@ export default function Home() {
               />  
             
             </a></li>
-            <li className={styles.item}><a onClick={handleClick} ref={bRef} name="Simon's Say">
+            <li className={styles.item2}><a onClick={handleClick} ref={bRef} name="Simon's Say">
             <Image
                   priority
                   src="/dos.png"
@@ -79,7 +79,7 @@ export default function Home() {
                   id="simon"
               />    
             </a></li>
-            <li className={styles.item}>
+            <li className={styles.item3}>
               <a onClick={handleClick} ref={cRef} name="Batabit">
               <Image
                   priority
@@ -145,12 +145,42 @@ export default function Home() {
         <div className={styles.contact_header}>
           <h2>Contact</h2>
         </div>
-        <a href="" className={styles.gmail}>hectordmv21@gmail.com</a>
         <div className={styles.contact_links}> 
-        
-          {/*Github */}
-          {/*Linkedin */}
-          {/* Whatsapp*/}
+          <span><a href="https://github.com/hecatonquiro-yolo/">
+          <Image 
+              priority
+              src="/linkedin.png"
+              width={20}
+              height={20}
+          /> 
+            </a></span>
+          <span><a href="https://www.linkedin.com/in/hectordmv">
+          <Image 
+              priority
+              className={styles.logo_github}
+              src="/github.png"
+              width={20}
+              height={20}
+          />
+            </a></span>
+          <span><a href="https://mail.google.com/mail/u/1/?ogbl#inbox">
+          <Image 
+              priority
+              className={styles.logo_github}
+              src="/gmail.png"
+              width={20}
+              height={20}
+          />  
+          </a></span>
+          <span><a href="">
+          <Image 
+              priority
+              className={styles.logo_github}
+              src="/whatsapp.png"
+              width={20}
+              height={20}
+          />  
+          </a></span>
         </div>
       </section>
     </Layout>

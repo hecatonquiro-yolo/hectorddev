@@ -49,6 +49,7 @@
   }
   
   .try {
+    margin: 0 auto;
     width: fit-content;
     background-color: #e84ab1;
     border-radius: 8px;
@@ -89,4 +90,14 @@
   .mongo{
     background-color: #3F2E1E;
     
+  }
+
+
+
+  /* Breakpoints */
+  
+  @media (min-width: 492px){
+    .try {
+      padding: 2%
+    }
   }
