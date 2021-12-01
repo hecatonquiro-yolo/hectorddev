@@ -45,7 +45,7 @@ export default function Layout({children}){
             </main>
             <footer className={styles.footer}>
                 <p>Derechos reservados</p>
-                <p>Hector M</p>
+                <p>hectorddev</p>
             </footer>
         </div>
     )

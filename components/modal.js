@@ -34,7 +34,7 @@ export default function Modal({children, modal, project}){
             <section className={styles.description_container}>
               <p className={styles.modal_description}>{handle[project].description}</p>
             </section>
-            <a href={handle[project].link} target="_blank" className={styles.try}>Let's see it</a>
+            <a href={handle[project].link} className={styles.try}>Lets see it</a>
             <div className={styles.technologies}> 
               <code className={styles.node}>Nodejs</code>
               <code className={styles.python}>Python</code>

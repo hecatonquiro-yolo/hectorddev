@@ -119,7 +119,7 @@ export default function Home() {
             />
           </figure>
             <p className={styles.about_dev}>
-               Hi! You most likely don't know me, but if you're reading this, Surprise! you are going to meet me.
+               Hi! You most likely do not know me, but if you are reading this, Surprise! you are going to meet me.
               My name is Héctor Márquez, born in Venezuela and a 2nd year student in the Computer Engineering career. Nowadays, most things have code behind them. How not to be part of this fantastic world ?.
               <br></br>
               My main language is JavaScript (although I started with Python). I master HTML, CSS, React, NodeJs. And right now I am experimenting with frameworks, such as NEXTJS, with which I created this page.
@@ -152,6 +152,7 @@ export default function Home() {
               src="/linkedin.png"
               width={20}
               height={20}
+
           /> 
             </a></span>
           <span><a href="https://www.linkedin.com/in/hectordmv">
